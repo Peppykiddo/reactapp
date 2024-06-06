@@ -1,0 +1,70 @@
+/* Login Page CSS */
+
+/* Container for the login form */
+.auth-form-container {
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a lifted appearance */
+  }
+  
+  /* Login Form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form Title */
+  .auth-form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333; /* Text color */
+  }
+  
+  /* Form Inputs */
+  .login-form label {
+    margin-bottom: 5px;
+    color: #555; /* Label text color */
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease; /* Smooth transition on focus */
+  }
+  
+  .login-form input[type="email"]:focus,
+  .login-form input[type="password"]:focus {
+    border-color: #007bff; /* Border color on focus */
+  }
+  
+  /* Login Button */
+  .login-form button {
+    padding: 12px 20px;
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  
+  /* Optional: Error Message */
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

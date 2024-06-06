@@ -1,0 +1,40 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Report {
+  id            Int      @id @default(autoincrement())
+  fromDate      DateTime
+  toDate        DateTime
+  place         String
+  material      String
+  supplier      String
+  transporter   String
+}
+
+model emd {
+  id               Int      @id @default(autoincrement())
+  Date             DateTime
+  VoucherType          String
+  Amount           Float
+  Type             String
+  URNNumber        String
+  StatusOfRefunded String
+  RefundedDate     DateTime
+  NPNumbers        String
+  PartyName        String
+  NameOfWork       String
+  Section          String
+  Remarks          String
+}

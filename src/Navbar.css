@@ -1,0 +1,117 @@
+/* Navbar Container */
+.navbar {
+  background-color: #007bff; /* Primary color */
+  padding: 15px 0;
+  border-bottom: 2px solid #ffffff; /* White */
+  transition: border-bottom 0.3s ease;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  color: #ffffff; /* White */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Navbar Toggler Icon */
+.navbar-toggler {
+  border: none;
+  padding: 0;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+/* Navbar Toggler Icon Lines */
+.navbar-toggler-icon {
+  background-color: #ffffff; /* White */
+  border-radius: 2px;
+  display: block;
+  height: 2px;
+  width: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-toggler-icon + .navbar-toggler-icon {
+  margin-top: 4px;
+}
+
+/* Navbar Links Container */
+.navbar-nav {
+  margin-left: auto;
+}
+
+/* Navbar Link */
+.nav-link {
+  color: #ffffff; /* White */
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #f8f9fa; /* Light gray */
+  text-decoration: none;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  background-color: #007bff; /* Primary color */
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  left: -150%; /* Position dropdown to the left side */
+}
+
+.dropdown-menu.show {
+  left: 0; /* Show the dropdown menu on the left side */
+}
+
+.dropdown-item {
+  color: #ffffff; /* White */
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #f8f9fa; /* Light gray */
+  color: #007bff; /* Primary color */
+  text-decoration: none;
+}
+/* Navbar.css */
+
+.logo {
+  height: 40px; /* Adjust the height as necessary */
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle {
+  margin-left: auto;
+}
+
+.btn-theme-toggle {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+

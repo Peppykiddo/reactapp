@@ -1,0 +1,93 @@
+/* EMD Container */
+.emd-container {
+  padding: 20px;
+}
+
+/* Main Content */
+.emd-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Form Card */
+.card {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Form Body */
+.card-body {
+  padding: 20px;
+}
+
+/* Form Footer */
+.card-footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #ced4da;
+  padding: 10px 20px;
+}
+
+/* Error Message */
+.error-message {
+  color: #dc3545;
+  margin-top: 10px;
+}
+
+/* Button Group */
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Button */
+.btn {
+  margin-right: 10px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
+
+/* Success Alert */
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+  margin-top: 20px;
+}
+
+/* View Abstract Button */
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: #fff;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+  border-color: #138496;
+}
